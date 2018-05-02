@@ -22,7 +22,7 @@ function createOne(){
 	$('div div').css('text-align','center');
 	$('body').css('font-family','arial');
 	$('body').css('font-size','x-large');
-	$('body div').css({
+	$('body>div').css({
 		width: '206',
 		border: '2px solid black',
 		padding: '24px',
