@@ -30,4 +30,12 @@ function createOne(){
 		margin: '1ex'
 	});
 
+	qu.append($('<div/>',{text:name,id:'ans'}).hide());
+	qu.append($('<input/>',{id:'response'}));
+
+	$('#response').keyup(function(){
+		if($('#response').val()==$('#ans').text()){
+			alert('Well Done');
+		}
+	});
 }
